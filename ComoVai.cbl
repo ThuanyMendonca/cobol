@@ -4,9 +4,9 @@
 
        ENVIRONMENT DIVISION.
 
-       DATA DIVISION.                                                   
+       DATA DIVISION.
        WORKING-STORAGE SECTION.
-       01 NOME PIC A9(020).
+       01 NOME PIC A(020).
 
        01 DATA-ATUAL.
            05 ANO-ATUAL PIC 9(04).
@@ -19,8 +19,8 @@
            ACCEPT NOME.
            ACCEPT DATA-ATUAL FROM DATE YYYYMMDD.
            DISPLAY "Bem vindo: " NOME.
-           DISPLAY "Data atual: " DIA-ATUAL "/" MES-ATUAL "/" 
+           DISPLAY "Data atual: " DIA-ATUAL "/" MES-ATUAL "/"
             ANO-ATUAL.
-                
-       STOP RUN.
+
+           STOP RUN.
        END PROGRAM COMOVAI.
