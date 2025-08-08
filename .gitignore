@@ -1,0 +1,14 @@
+*.swp
+.DS_Store
+bin/configlet
+bin/configlet.exe
+cobolcheck
+cobolcheck.exe
+ALLTESTS
+test.cob
+test
+test.exe
+output
+*Log.txt
+cobolcheck.exe
+*.cob.bak
