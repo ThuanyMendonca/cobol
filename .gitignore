@@ -12,3 +12,4 @@ output
 *Log.txt
 cobolcheck.exe
 *.cob.bak
+*.exe
